@@ -1,0 +1,256 @@
+.App {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoothing: grayscale; */
+    margin: auto;
+}
+
+html {
+    /* background-image: url(./imags/רקע/7abdd99feda451b7b52faac0c5d7e256.jpg); */
+    background-color: #e3eaf0;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.oserAdd-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .oserAdd-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.oserAdd-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    background-color: #7cd2fa;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 250px; */
+}
+
+a {
+    border-bottom: #282c3405 2px solid;
+}
+
+a:hover {
+    border-bottom: #282c34 2px solid;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 200px;
+    justify-self: center;
+}
+
+.adminNav {
+    font-family: Calibri Light;
+    display: flex;
+    justify-content: space-evenly;
+    color: #282c34 !important;
+    font-size: 30px;
+}
+
+a {
+    color: #7c0808 !important;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.navA {
+    text-decoration: none;
+}
+
+.navA:hover {
+    border-bottom: #2e6291 2px solid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container {
+    /* width: 300px;
+    height: 300px; */
+    background-color: #dbe4eb00;
+    /* border: #282c34 2px solid; */
+}
+
+.categ {
+    width: auto;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.user {
+    padding: 50px;
+    width: 10px;
+}
+
+.flexColom {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: baseline;
+    text-align: center;
+    border-bottom: 2px solid #ab211a;
+}
+
+.margin {
+    width: 50px;
+}
+
+.list {
+    width: 100%;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #01284470;
+    color: #cbd4e1;
+    margin: 20px 10px;
+}
+
+button:hover {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputNamber {
+    width: 60px;
+    border: none;
+    color: #ccd8e5;
+}
+
+.inputNamber::placeholder {
+    color: #ccd8e5;
+}
+
+.aaa {
+    background-color: #ff00008c;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ccd8e5;
+    padding: 0 5%;
+    font-family: Vladimir Script;
+    /* font-weight: bold; */
+    font-size: 50px;
+}
+
+.aaaimg {
+    height: inherit;
+}
+
+html {
+    /* background-image: url(./imags/backgraond.jpg); */
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    margin-block: 50px;
+}
+
+p {
+    color: #cbd4e1;
+    color: #2e6291;
+    font-weight: bold;
+}
+
+h1 {
+    color: #003656;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #7c0808;
+}
+
+h3 {
+    color: #003656;
+}
+
+input {
+    background-color: #fb616100;
+    color: #7c0808;
+    font-size: 20px;
+    height: 25px;
+    border: none;
+    border-bottom: #7c0808 2px solid;
+}
+
+input::placeholder {
+    color: #7c0808a8;
+    font-size: 20px;
+}
+
+.message {
+    background-color: #ff00008c;
+    color: #ccd8e5;
+    padding: auto;
+    margin-top: 40px;
+    /* padding: 0 60px 10px; */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 60px 10px;
+}
